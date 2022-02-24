@@ -16,7 +16,7 @@
         <h1 class="navegacion-barra-nombre"><a href="#" class="barra-nombre">Ediberto Coronel</a></h1>
         <nav>
           <ul class="navegacion-barra-lista">
-            <li><a href="#SobreMi">Sobre Mi</a></li>
+            <li><a href="#sobremi">Sobre Mi</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Hobbies">Hobbies</a></li>
             <li><a href="#Formacion">Formacion</a></li>
@@ -29,24 +29,32 @@
     </header>
 <body>
     <main>
-        <section id="contacto">
-            <div class="contenido-formulario">
-              <form class="formulario">
-                <h1 class="contacto-formulario" >Contacto</h1>
-                <p class="texto-formulario">¿Quieres contactarme?</p>
-                <p class="texto-formulario1">Complete el siguiente formulario y me podre en contacto con usted lo mas pronto posible</p>
-                <label for="nombreapellido">Nombre y Apellido</label>
-                <input type="text" id="nombreapellido" class="input-padron" required>
-                <label for="correoelectronico">Correo Electronico</label>
-                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
-                <label for="telefono">Telefono</label>
-                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
-                <label for="mensaje">Mensaje</label>
-                <textarea cols="64" rows="10" id="mensaje" class="input-padron" required></textarea>
-                <input type="submit" value="Enviar" class="enviar">
-              </form><img src="img/54803.jpg" class="imagen-telefono">
-            </div>
-          </section>
+      <section id="sobremi">
+        <div class="contenido-sobremi">
+          <h1 class="nombre-sobremi">Mi nombre es Ediberto Coronel, soy Desarrolador Front-End
+          <p class="texto-sobremi">Formado en la Universidad de Carabobo. <br>Actualmente estudiando Tec. en Programacion en la Universidad Nacional Guillermo Brown  UNaB y me encuentro participando del Proyecto Oracle One - Alura Latam.</p></h1>
+          <img src="img/foto.jpg" class="imagen-foto">
+        </div>
+      </section>
+      <section id="contacto">
+        <div class="contenido-formulario">
+          <img src="img/54803.jpg" class="imagen-telefono">
+          <form class="formulario">
+            <h1 class="contacto-formulario" >Contacto</h1>
+            <p class="texto-formulario">¿Quieres contactarme?</p>
+            <p class="texto-formulario1">Complete el siguiente formulario y me podre en contacto con usted lo mas pronto posible</p>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+            <label for="correoelectronico">Correo Electronico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="64" rows="10" id="mensaje" class="input-padron" required></textarea>
+            <input type="submit" value="Enviar" class="enviar">
+          </form>
+        </div>
+      </section>
 
 
     </main>
