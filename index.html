@@ -11,9 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Porfolio Ediberto</title>
 </head>
+<body>
     <header>
       <div class="navegacion">
-        <h1 class="navegacion-barra-nombre"><a href="#" class="barra-nombre">Ediberto Coronel</a></h1>
+        <a href="#" class="barra-nombre">Ediberto Coronel</a>
         <nav>
           <ul class="navegacion-barra-lista">
             <li><a href="#sobremi">Sobre Mi</a></li>
@@ -27,16 +28,24 @@
         </nav>
       </div>
     </header>
-<body>
     <main>
-      <section id="sobremi">
-        <div class="contenido-sobremi">
-          <h1 class="nombre-sobremi">Mi nombre es Ediberto Coronel, soy Desarrolador Front-End
-          <p class="texto-sobremi">Formado en la Universidad de Carabobo. <br>Actualmente estudiando Tec. en Programacion en la Universidad Nacional Guillermo Brown  UNaB y me encuentro participando del Proyecto Oracle One - Alura Latam.</p></h1>
+      <div id="minombre">
+        <div class="contenido-minombre">
+          <h1 class="nombre-minombre">Mi nombre es Ediberto Coronel, soy Desarrolador Front-End
+          <p class="texto-minombre">Formado en la Universidad de Carabobo. <br>Actualmente estudiando Tec. en Programacion en la Universidad Nacional Guillermo Brown  UNaB y me encuentro participando del Proyecto Oracle One - Alura Latam.</p></h1>
           <img src="img/foto.jpg" class="imagen-foto">
         </div>
-      </section>
-      <section id="contacto">
+      </div>
+      <div id="sobremi">
+        <div class="contenido-sobremi">  
+          <h1 class="sobremi-sobremi">Sobre mi</h1>
+          <p class="texto-sobremi">Actualmente deseo incorporarme en el mundo del IT, he realizado estudios en el área de QA testing manual con deseos de continuar a la automatización de pruebas, estoy en un proceso continuo de aprendizaje de otros lenguajes de programación y desarrollo web</p>
+          <li class="sobremi-redes">Contenido de la primera columna</li>
+          <li class="sobremi-redes">Contenido de la segunda columna</li>
+          <li class="sobremi-redes">Contenido de la tercera columna</li>
+        </div>
+      </div>
+      <div id="contacto">
         <div class="contenido-formulario">
           <img src="img/54803.jpg" class="imagen-telefono">
           <form class="formulario">
@@ -54,7 +63,7 @@
             <input type="submit" value="Enviar" class="enviar">
           </form>
         </div>
-      </section>
+      </div>
 
 
     </main>

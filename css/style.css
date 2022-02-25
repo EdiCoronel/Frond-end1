@@ -28,6 +28,9 @@ header h1 {
     color: #000;
     float: left;
     padding-left: 50px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 nav li {
@@ -51,32 +54,31 @@ nav ul {
     margin-right: 30px;
 }
 
-/* Seccion sobre mi */
+/* Seccion Mi Nombre */
 
 
-#sobremi {
+#minombre {
+    width: 1280px;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
-.contenido-sobremi {
-    width: 1280px;
+.contenido-minombre {
     margin: 0px auto;
     padding: 20px;
     margin-right: 0px;
 }
 
-.nombre-sobremi {
+.nombre-minombre {
     display: inline-block;
     width: 70%;
     vertical-align: top;
     margin-top: 100px;
     font-size: 25px;
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
-.texto-sobremi {
+.texto-minombre {
     font-size: 20px;
     font-weight: lighter;
     margin-top: 20px;
@@ -85,10 +87,40 @@ nav ul {
 .imagen-foto {
     width: 20%;
     float: right;
-    margin-right: 80px;
     margin-top: 20px;
 }
 
+/* Seccion Sobre Mi */
+
+#sobremi {
+    width: 1280px;
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+
+.contenido-sobremi {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+.sobremi-sobremi {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texto-sobremi {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.sobremi-redes {
+    display: inline-block;
+    width: 25%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
 
 /*Seccion Contactos*/
 
@@ -97,7 +129,6 @@ nav ul {
     display: inline-block;
     vertical-align: top;
     padding: 25px 0 40px 0;
-    float: right;
 }
 
 .contacto-formulario {
@@ -120,7 +151,7 @@ form label {
 
 .imagen-telefono {
     width: 45%;
-    padding: 25px 0px 25px 40px;
+    padding: 25px 20px 25px 40px;
     float: left;
 }
 
